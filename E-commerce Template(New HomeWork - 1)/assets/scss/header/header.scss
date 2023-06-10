@@ -1,0 +1,102 @@
+@import '../Utilities/variables';
+header{
+    height: 180px;
+    background-color: $sectionColor;
+}
+.header-top{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.header-bottom{
+    height: 80px;
+}
+header{
+    .header-top{
+        .container{
+            border-bottom: solid 1px;
+            .row{
+                .search{
+                    i{
+                        color: $iconColor;
+                    }
+                }
+                .brend-title{
+                    h1{
+                       font-weight: lighter;
+                      
+                    }
+                    .decor{
+                        padding: 12px;
+                    }
+                 
+                }
+                .account{
+                    i{
+                        color: $iconColor;
+                    }
+                    .account-icon{
+                        display: flex;
+                        
+                        align-items: center;
+                        p{
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 18px;
+                            margin-left: 10px;
+                        }
+                        
+                    }
+                    .shopping-icon{
+                        display: flex;
+                        align-items: center;
+                        p{
+                            font-family: 'Roboto', sans-serif;
+                            font-size: 18px;
+                            margin-left: 10px;
+                        }
+                        margin-left: 20px;
+                    }
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
+.brend-title{
+    display: flex;
+    justify-content: center;
+}
+    
+.header-bottom{
+    .container{
+       
+        ul{
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            list-style-type: none;
+            li{
+                p{
+                    font-family: $listfontfamily;
+                    font-size: $listfontsizes;
+                }
+               
+            }
+        }
+    }
+}
+.header-bottom{
+    .container{
+        ul{
+            
+            li{
+                p:hover{
+                   color: #f12121;
+                   cursor: pointer;
+                }
+               
+            }
+        }
+    }
+}

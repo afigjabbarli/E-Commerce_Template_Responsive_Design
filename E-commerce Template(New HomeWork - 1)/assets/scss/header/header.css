@@ -1,1 +1,74 @@
-/*# sourceMappingURL=header.css.map */
+header {
+  height: 180px;
+  background-color: #E5E5E5;
+}
+
+.header-top {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.header-bottom {
+  height: 80px;
+}
+
+header .header-top .container {
+  border-bottom: solid 1px;
+}
+header .header-top .container .row .search i {
+  color: #1E2832;
+}
+header .header-top .container .row .brend-title h1 {
+  font-weight: lighter;
+}
+header .header-top .container .row .brend-title .decor {
+  padding: 12px;
+}
+header .header-top .container .row .account {
+  display: flex;
+  justify-content: flex-end;
+}
+header .header-top .container .row .account i {
+  color: #1E2832;
+}
+header .header-top .container .row .account .account-icon {
+  display: flex;
+  align-items: center;
+}
+header .header-top .container .row .account .account-icon p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-left: 10px;
+}
+header .header-top .container .row .account .shopping-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+header .header-top .container .row .account .shopping-icon p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.brend-title {
+  display: flex;
+  justify-content: center;
+}
+
+.header-bottom .container ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.header-bottom .container ul li p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.header-bottom .container ul li p:hover {
+  color: #f12121;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */

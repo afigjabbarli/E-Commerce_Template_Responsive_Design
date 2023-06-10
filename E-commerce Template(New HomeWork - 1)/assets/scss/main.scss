@@ -1,6 +1,28 @@
 @import './Utilities/variables';
-
-main{
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+body{
    background-color: $backgroundColor;
 }
+.container{
+   width: 80%;
+   margin: 0 auto;
+ 
+}
+.col-4{
+   width: 33%;
+   
+}
+.row{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+  
+
+  
   
