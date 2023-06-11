@@ -43,8 +43,10 @@
 .intro-col-4 {
   width: 424px;
   height: 542px;
-  border: 1px solid gray;
+  border: 3px solid gray;
   border-radius: 150px 0 150px 0px;
+  position: relative;
+  top: 100px;
 }
 .intro-col-4 .border-div .image-div {
   width: 414px;
@@ -53,9 +55,9 @@
 .intro-col-4 .border-div .image-div img {
   width: 414px;
   height: 536px;
-  border: 1px solid;
+  border: 0px solid;
   border-radius: 150px 0 150px 0px;
   position: relative;
   bottom: 16px;
-  right: 10px;
+  right: 16px;
 }/*# sourceMappingURL=intro-section.css.map */
