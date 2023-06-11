@@ -1,0 +1,61 @@
+#introduction {
+  background-color: #E5E5E5;
+  height: 670px;
+}
+
+.intro-col-8 {
+  margin-top: 100px;
+}
+.intro-col-8 .title h2 {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 74px;
+  font-weight: lighter;
+}
+.intro-col-8 .content {
+  margin: 50px 0;
+}
+.intro-col-8 .content p {
+  margin-top: 25px;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 30px;
+}
+.intro-col-8 .button button {
+  width: 223px;
+  height: 72px;
+  background-color: #1E2832;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.intro-col-8 .button button i {
+  color: white;
+}
+.intro-col-8 .button button p {
+  color: white;
+  font-size: 29px;
+}
+.intro-col-8 .button button:hover {
+  background-color: #FF6F61;
+  transform: scale(1.1);
+}
+
+.intro-col-4 {
+  width: 424px;
+  height: 542px;
+  border: 1px solid gray;
+  border-radius: 150px 0 150px 0px;
+}
+.intro-col-4 .border-div .image-div {
+  width: 414px;
+  height: 536px;
+}
+.intro-col-4 .border-div .image-div img {
+  width: 414px;
+  height: 536px;
+  border: 1px solid;
+  border-radius: 150px 0 150px 0px;
+  position: relative;
+  bottom: 16px;
+  right: 16px;
+}/*# sourceMappingURL=intro-section.css.map */

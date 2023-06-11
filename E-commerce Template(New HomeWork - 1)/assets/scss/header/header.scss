@@ -14,7 +14,7 @@ header{
 header{
     .header-top{
         .container{
-            border-bottom: solid 1px;
+            border-bottom: 1px solid gray;
             .row{
                 .search{
                     i{
@@ -29,7 +29,7 @@ header{
                     .decor{
                         padding: 12px;
                     }
-                 
+                   
                 }
                 .account{
                     i{
@@ -81,7 +81,7 @@ header{
                     font-family: $listfontfamily;
                     font-size: $listfontsizes;
                 }
-               
+                
             }
         }
     }
@@ -92,8 +92,9 @@ header{
             
             li{
                 p:hover{
-                   color: #f12121;
+                   color: #FF6F61;
                    cursor: pointer;
+                   transform: scale(1.1);
                 }
                
             }

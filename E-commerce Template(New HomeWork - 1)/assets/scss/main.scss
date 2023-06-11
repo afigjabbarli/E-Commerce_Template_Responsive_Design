@@ -10,7 +10,7 @@ body{
 .container{
    width: 80%;
    margin: 0 auto;
- 
+   
 }
 .col-4{
    width: 33%;
@@ -21,6 +21,12 @@ body{
    display: flex;
    flex-wrap: wrap;
    align-items: center;
+}
+.col-8{
+   width: 60%;
+}
+.intro-col-4{
+   width: 40%;
 }
   
 

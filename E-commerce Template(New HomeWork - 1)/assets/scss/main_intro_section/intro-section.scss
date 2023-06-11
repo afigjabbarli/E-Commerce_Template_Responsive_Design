@@ -1,0 +1,81 @@
+@import '../Utilities/variables';
+#introduction{
+    background-color: $sectionColor;
+    height: 670px;
+   
+}
+.intro-col-8{
+   margin-top: 100px;
+    .title{
+        h2{
+            font-family: $FontFamilyOfIntroSection;
+            font-size: 74px;
+            font-weight: lighter;
+        }
+    }
+   .content{
+    margin: 50px 0;
+    p{
+        margin-top: 25px;
+        font-family: $FontFamilyOfIntroSection;
+        font-size: 30px;
+        
+    }
+   }
+   .button{
+     
+     button{
+        width: 223px;
+        height: 72px;
+         background-color: $iconColor;
+         padding: 10px;
+         display: flex;
+         align-items: center;
+         justify-content: space-evenly;
+        
+         
+         i{
+            color: white;
+         }
+         p{
+            color: white;
+            font-size: 29px;
+            
+         }
+         a{
+           
+         }
+         
+     }
+   }
+   .button{
+      button:hover{
+        background-color:#FF6F61;
+        transform: scale(1.1);
+      }
+    
+   }
+}
+.intro-col-4{
+    width: 424px;
+    height: 542px;
+    border: 1px solid gray;
+  border-radius: 150px 0 150px 0px;
+  .border-div{
+    .image-div{
+        width: 414px;
+        height: 536px;
+        
+        img{
+            width: 414px;
+            height: 536px;
+            border: 1px solid;
+            border-radius: 150px 0 150px 0px;
+            position: relative;
+            bottom: 16px;
+            right: 16px;
+        }
+    }
+  }
+}
+   

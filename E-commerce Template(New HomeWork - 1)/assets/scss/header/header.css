@@ -14,7 +14,7 @@ header {
 }
 
 header .header-top .container {
-  border-bottom: solid 1px;
+  border-bottom: 1px solid gray;
 }
 header .header-top .container .row .search i {
   color: #1E2832;
@@ -69,6 +69,7 @@ header .header-top .container .row .account .shopping-icon p {
 }
 
 .header-bottom .container ul li p:hover {
-  color: #f12121;
+  color: #FF6F61;
   cursor: pointer;
+  transform: scale(1.1);
 }/*# sourceMappingURL=header.css.map */
