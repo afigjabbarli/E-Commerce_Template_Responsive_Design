@@ -18,11 +18,198 @@
   text-transform: uppercase;
   transform: rotate(270deg);
   position: relative;
-  top: 350px;
+  top: 360px;
   left: -280px;
 }
 #brandandstyles .styles .text p {
   font-size: 34px;
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
+}
+#brandandstyles .styles .styles-container {
+  width: 90%;
+  margin: auto auto;
+}
+#brandandstyles .styles .styles-container .row {
+  margin: auto auto;
+}
+#brandandstyles .styles .styles-container .row .col-6-left {
+  width: 648px;
+  height: 648px;
+  background-image: url(../../medya/image/BrandandStyles/f9d9d005d25dd5c0ac5bce699116fc7a.jpg);
+  transition: transform 0.3s ease-in-out;
+}
+#brandandstyles .styles .styles-container .row .col-6-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .col-6 {
+  width: 300px;
+  height: 310px;
+  margin-left: 6px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-1 {
+  background-image: url(../../medya/image/BrandandStyles/8da33a22ac4df682e8611d37c589aa8d.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-2 {
+  background-image: url(../../medya/image/BrandandStyles/de3bf7c31966e6491968c6624691f180.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-3 {
+  background-image: url(../../medya/image/BrandandStyles/165a3345c9f91c12ab6be7a972cffd73.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-4 {
+  background-image: url(../../medya/image/BrandandStyles/519adf0ed7e906616bd8e64b644cd5d0.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#brandandstyles .styles .styles-container .row .col-6-left {
+  transition: transform 0.3s ease-in-out;
+}
+#brandandstyles .styles .styles-container .row .col-6-left .product-status {
+  position: relative;
+  top: 598px;
+  display: flex;
+  display: none;
+  justify-content: space-between;
+  background-color: #1E2832;
+  width: 648px;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+}
+#brandandstyles .styles .styles-container .row .col-6-left .product-status p {
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 16px;
+}
+#brandandstyles .styles .styles-container .row .col-6-left .product-status .right {
+  margin-left: 260px;
+  display: flex;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-1 {
+  transition: transform 0.3s ease-in-out;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-1 .product-status {
+  position: relative;
+  top: 260px;
+  display: flex;
+  display: none;
+  justify-content: space-between;
+  background-color: #1E2832;
+  width: 300px;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-1 .product-status p {
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 16px;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-1 .product-status .right {
+  margin-left: 150px;
+  display: flex;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-2 {
+  transition: transform 0.3s ease-in-out;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-2 .product-status {
+  position: relative;
+  top: 260px;
+  display: flex;
+  display: none;
+  justify-content: space-between;
+  background-color: #1E2832;
+  width: 300px;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-2 .product-status p {
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 16px;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-2 .product-status .right {
+  margin-left: 150px;
+  display: flex;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-3 {
+  transition: transform 0.3s ease-in-out;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-3 .product-status {
+  position: relative;
+  top: 260px;
+  display: flex;
+  display: none;
+  justify-content: space-between;
+  background-color: #1E2832;
+  width: 300px;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-3 .product-status p {
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 16px;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-3 .product-status .right {
+  margin-left: 150px;
+  display: flex;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-4 {
+  transition: transform 0.3s ease-in-out;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-4 .product-status {
+  position: relative;
+  top: 260px;
+  display: flex;
+  display: none;
+  justify-content: space-between;
+  background-color: #1E2832;
+  width: 300px;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-4 .product-status p {
+  color: white;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 16px;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .image-4 .product-status .right {
+  margin-left: 140px;
+  display: flex;
+}
+
+#brandandstyles .styles .styles-container .row .col-6-left:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+#brandandstyles .styles .styles-container .row .col-6-left:hover .product-status {
+  display: flex;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .col-6:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+#brandandstyles .styles .styles-container .row .col-6-right .col-6:hover .product-status {
+  display: flex;
 }/*# sourceMappingURL=brandandstyles.css.map */
