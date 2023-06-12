@@ -1,0 +1,109 @@
+@import '../Utilities/variables';
+#Shopping{
+    .Title{
+        width: 60%;
+        height: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        div{
+            width: 707px;
+            height: 60px;
+            padding-top: 10px;
+            p{
+                font-size: 50px;
+                font-weight: bold;
+                font-family: $FontFamilyOfIntroSection;
+            }
+                 
+               
+        }
+       
+    }
+    .container{
+        height: 1004px;
+       .row{
+        gap: 16px;
+        .col-6{
+            height: 502px;
+            width: 312px;
+            .image{
+                height: 400px;
+                width: 312px;
+            }
+
+        }
+        .col-6-1{
+            .image{
+                background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../../medya/image/Products/ed8947320d61598763ced4028331d3b9.jpg);
+            }
+            .info{
+                height: 102px;
+                width: 312px;
+                
+            }
+        }
+        .col-6-2{
+            .image{
+                background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../../medya/image/Products/eef36f76fa952d43cef6f981de507138.jpg);
+            }
+        }
+        .col-6-3{
+            .image{
+                background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../../medya/image/Products/58c16537c70ecc181cda73fd6de40bef.jpg);
+            }
+        }
+        .col-6-4{
+            .image{
+                background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../../medya/image/Products/db4f836d22446b19c383f7c1ceac1505.jpg);
+            }
+        }
+        .col-6-5{
+            .image{
+                background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../../medya/image/Products/ce1948e3a0b79cad4230b602e93eab79.jpg);
+            }
+        }
+        .col-6-6{
+            .image{
+                background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../../medya/image/Products/e651bbc5af5b5287a033532435ab00c3.jpg);
+            }
+        }
+        .col-6-7{
+            .image{
+                background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../../medya/image/Products/345a59522ece8fc2c583976f007843cc.jpg);
+            }
+        }
+        .col-6-8{
+            .image{
+                background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-image: url(../../medya/image/Products/ab88d7d5e6aa96f4820a01796bb7f326.jpg);
+            }
+        }
+       }
+       
+    }
+}
